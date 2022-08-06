@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #202733;
+  color: #CEE3E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* MODAL */
+.modal {
+  background-color: #313A48;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 15px;
+  width: min(90%, 540px);
+  min-height: 330px;
+  position: relative;
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px;
+  column-gap: 24px;
+}
+
+.modal-eyebrow {
+  color: #53FFAA;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 4.08571px;
+  text-transform: uppercase;
+}
+
+.modal-wrapper blockquote {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.3px;
+  text-align: center;
+  max-width: 450px;
+}
+
+.modal-wrapper svg {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.modal-button {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #53FFAA;
+  position: absolute;
+  bottom: -32px;
+  left: calc(50% - 32px);
+  border: none;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  box-shadow: 0px 0px 40px #53FFAA;
+}
+
